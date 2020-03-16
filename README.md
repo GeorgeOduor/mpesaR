@@ -31,7 +31,7 @@ rawfile <- mpesa_file()
 ```
 The function needs a pasword,but for security reasons you can ommit the password and let it ask you interactivelly in a pop up window.
 
-## Where did you Cash go to?
+## Where did your Cash go to?
 
 Answer this question by calling `statement_out()` function.
 eg
