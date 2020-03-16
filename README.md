@@ -10,7 +10,7 @@ Its also in developements so any issues can be adressed to me.
 
 In order to use this package,you need to have devtools installed in your github computer and load it first.This is because this package has not set its foot to CRAN repository.
 
-`
+```
 install.packages(devtools)#if you donot have devtoools pre installed
 
 library(devtools)
@@ -19,7 +19,7 @@ devtools::install_github("GeorgeOduor/mpesaR")
 
 library(mpesaR)
 
-`
+```
 # Load you mpesa file.
 
 To load your MPESA file all you need is to call the `mpesa_file()` function .Agood practice is to save it in an object.
