@@ -25,10 +25,10 @@ library(mpesaR)
 To load your MPESA file all you need is to call the `mpesa_file()` function .Agood practice is to save it in an object.
 
 eg
-`
+```
 filePath <- "path/to/my/MPESA_file.pdf"
 rawfile <- mpesa_file()
-`
+```
 The function needs a pasword,but for security reasons you can ommit the password and let it ask you interactivelly in a pop up window.
 
 ## Where did you Cash go to?
@@ -36,12 +36,12 @@ The function needs a pasword,but for security reasons you can ommit the password
 Answer this question by calling `statement_out()` function.
 eg
 
- `
+ ```
  myCash = mpesa_file("path/to/MPESAfile.pdf","MYSECRETPASWWORD") %>%
 statement_full() %>%
 statement_out()
 
- `
+```
  
  ## Note on using this package.
  
