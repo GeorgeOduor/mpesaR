@@ -1,0 +1,14 @@
+Package: mpesaR
+Type: Package
+Title: What the Package Does (Title Case)
+Version: 0.1.0
+Author: Who wrote it
+Maintainer: The package maintainer <yourself@somewhere.net>
+Description: This package was developed to speed up MPESA statement data mining and computations for data scientists and manager.The package is bult on top of pdftools , tidyverse and base packages.The packages are therefore required.It will help you gnerate quick insights from a clients mpesa statements.
+License: What license is it under?
+Encoding: UTF-8
+LazyData: true
+Imports: 
+    pdftools,
+    tidyverse
+RoxygenNote: 7.0.2

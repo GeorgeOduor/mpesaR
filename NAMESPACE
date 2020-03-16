@@ -1,0 +1,7 @@
+exportPattern("^[[:alpha:]]+")
+
+#' @import pdftools,tidyverse
+importFrom(pdftools,pdf_text)
+import(tidyverse)
+importFrom(stringr,str_split)
+importFrom(askpass,askpass)
